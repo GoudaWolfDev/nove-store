@@ -1,0 +1,18 @@
+{
+  "name": "NOVA - Modern Shopping, Elevated",
+  "short_name": "NOVA",
+  "description": "A modern, responsive e-commerce front-end for electronics, fashion, shoes, watches, home, beauty and sports.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#6C5CE7",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "64x64", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/img/logo.svg", "sizes": "220x64", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "categories": ["shopping", "lifestyle"]
+}

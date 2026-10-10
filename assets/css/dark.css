@@ -1,0 +1,10 @@
+:root[data-theme="dark"] .site-header{background:color-mix(in srgb,var(--surface) 90%,transparent)}
+:root[data-theme="dark"] .bottom-nav{background:color-mix(in srgb,var(--surface) 94%,transparent)}
+:root[data-theme="dark"] .announce{background:linear-gradient(135deg,#4b3fc4,#0b8f8b)}
+:root[data-theme="dark"] .cat-card::after{background:linear-gradient(0deg,rgba(0,0,0,.8),transparent 60%)}
+:root[data-theme="dark"] .promo::after{background:linear-gradient(90deg,rgba(0,0,0,.8),transparent)}
+:root[data-theme="dark"] .flash{background:linear-gradient(135deg,rgba(108,92,231,.14),rgba(0,206,201,.14))}
+:root[data-theme="dark"] .card-tools .icon-btn{background:var(--surface-2);color:var(--text)}
+:root[data-theme="dark"] .btn-outline{border-color:var(--border);color:var(--text)}
+:root[data-theme="dark"] .btn-outline:hover{background:var(--surface-2)}
+:root[data-theme="dark"] img{filter:brightness(.96)}

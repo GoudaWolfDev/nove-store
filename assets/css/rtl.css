@@ -1,0 +1,13 @@
+[dir="rtl"] .text-start{text-align:right}
+[dir="rtl"] .toast-wrap{inset-inline-end:auto;inset-inline-start:16px}
+[dir="rtl"] blockquote,[dir="rtl"] .quote{font-family:var(--font-ar)}
+[dir="rtl"] .marquee-track{animation-direction:reverse}
+[dir="rtl"] .mega a:hover{padding-inline-start:0;padding-inline-end:6px}
+[dir="rtl"] .price-old{margin-inline-start:0;margin-inline-end:6px}
+[dir="rtl"] .card .card-tools{transform:translateX(-10px)}
+[dir="rtl"] .card:hover .card-tools{transform:none}
+[dir="rtl"] .breadcrumbs .sep svg,[dir="rtl"] .breadcrumbs .sep{transform:scaleX(-1)}
+[dir="rtl"] .autocomplete .name mark{padding:0 2px}
+[dir="rtl"] .pagination i,[dir="rtl"] .slider-arrow i,[dir="rtl"] .back-top i{transform:scaleX(-1)}
+[dir="rtl"] input[type=email],[dir="rtl"] input[type=tel],[dir="rtl"] input[type=url],[dir="rtl"] .ltr{direction:ltr;text-align:right}
+[dir="rtl"] .hero-media,[dir="rtl"] .gallery-main{transform:scaleX(1)}

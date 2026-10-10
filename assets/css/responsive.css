@@ -1,0 +1,51 @@
+@media (max-width:1024px){
+  .shop-layout{grid-template-columns:1fr}
+  .filters{position:fixed;inset-block:0;inset-inline-end:0;width:min(360px,90vw);z-index:var(--z-drawer);max-height:none;border-radius:0;
+    transform:translateX(100%);transition:var(--transition);overflow-y:auto}
+  [dir="rtl"] .filters{transform:translateX(-100%)}
+  .filters.open{transform:none;box-shadow:var(--shadow-lg)}
+  .mobile-filter-btn{display:inline-flex}
+  .mega-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .account-layout{grid-template-columns:1fr}
+  .account-nav{position:static;display:flex;overflow-x:auto;gap:6px}
+  .account-nav button{width:auto;white-space:nowrap}
+}
+@media (max-width:768px){
+  .main-nav,.search{display:none}
+  .hamburger{display:grid}
+  .hamburger.mobile{display:grid}
+  .hero-slide{grid-template-columns:1fr;text-align:center;padding-block:var(--space-5)}
+  .hero-content p{margin-inline:auto}
+  .hero-actions{justify-content:center}
+  .hero-media{order:-1;max-width:420px;margin-inline:auto}
+  .product-layout,.cart-layout,.checkout-layout,.contact-grid,.promo-grid,.quickview-grid{grid-template-columns:1fr}
+  .checkout-layout .summary,.cart-layout .summary{position:static}
+  .summary,.filters{position:static}
+  .sticky-buy{display:flex}
+  .ig-grid{grid-template-columns:repeat(3,1fr)}
+  .list-view .card{flex-direction:column}
+  .list-view .card .card-media{width:100%}
+  .step span.label{display:none}
+  .gallery-main:hover img{transform:none}
+}
+@media (max-width:640px){
+  .announce .container{padding-inline:40px}
+  .switchers .select-mini:not(.lang){display:none}
+  .header-actions{gap:2px}
+  .icon-btn{width:38px;height:38px}
+  .bottom-nav{display:block}
+  body{padding-bottom:var(--bottomnav-h)}
+  .back-top{inset-block-end:calc(var(--bottomnav-h) + 16px)}
+  .cookie-banner{inset-block-end:calc(var(--bottomnav-h) + 12px)}
+  .cart-line{grid-template-columns:70px 1fr;grid-template-areas:"img info" "img total"}
+  .cart-line .media{width:70px;height:70px}
+  .card .card-tools{opacity:1;transform:none}
+}
+@media (min-width:1280px){
+  :root{--container:1320px}
+  .grid-products{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+}
+@media (min-width:1025px){
+  .mobile-only{display:none !important}
+}
