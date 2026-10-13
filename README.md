@@ -4,7 +4,7 @@
 
 ![NOVA Banner](https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80&auto=format&fit=crop)
 
-**Live Demo:** _https://goudawolfdev.github.io/nova-store/_ (placeholder)
+**Live Demo:** _https://goudawolfdev.github.io/nove-store/_ (placeholder)
 
 ---
 
